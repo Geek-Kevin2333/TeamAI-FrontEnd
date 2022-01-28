@@ -94,6 +94,7 @@ export default {
         const tableData = ref([]);
         const pageTotal = ref(0);
         // 获取表格数据
+-     [x] //插入获取数据的api，可以引入第三方文件
         const getData = () => {
             fetchData(query).then((res) => {
                 tableData.value = res.list;

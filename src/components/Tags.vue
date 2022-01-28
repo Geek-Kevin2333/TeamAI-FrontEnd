@@ -1,3 +1,4 @@
+//   管理历史页面的组件
 <template>
     <div class="tags" v-if="showTags">
         <ul>
