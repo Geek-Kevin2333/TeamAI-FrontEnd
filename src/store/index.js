@@ -1,6 +1,6 @@
 import {createStore} from 'vuex'
 
-export default createStore({
+const sidebar={
     state: {
         tagsList: [],
         collapse: false
@@ -53,4 +53,10 @@ export default createStore({
     },
     actions: {},
     modules: {}
+}
+
+export default createStore({
+    modules:{
+        sidebar
+    }
 })
